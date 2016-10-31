@@ -147,6 +147,12 @@ div.scene1 {
     display: block;
   }
 
+  h3, h3 > a {
+  font-family: Helvetica;
+  font-size: .6em;
+  color: black;
+}
+
 
 }
 
