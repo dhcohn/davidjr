@@ -160,9 +160,9 @@ div.scene1 {
     display: block;
   }
 
-  h3, h3 > a {
+  h3 {
   font-family: Helvetica;
-  font-size: .5em;
+  font-size: .8em;
   color: black;
 }
 
