@@ -52,6 +52,7 @@ header {
   background-color: black;
   padding-bottom: 20px;
   font-family: Courier;
+  background-image: url(../img/navbackground.jpg)
 }
 
 .logo {
