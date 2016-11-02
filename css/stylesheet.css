@@ -168,7 +168,11 @@ div.scene1 {
   font-family: SourceCodePro-Regular;
   font-size: .8em;
   text-decoration: underline;
-}
+  }
+
+  h1 { 
+    xfont-size: .9em;
+    }
 
   h2 {
     font-size: 1em;
