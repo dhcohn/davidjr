@@ -1,5 +1,8 @@
 /*GLOBAL*/
-
+@font-face {
+    font-family: SourceCodePro-Regular;
+    src: url(../SourceCodePro-Regular.otf)
+  }
 
 html {
   box-sizing: border-box;
@@ -68,26 +71,26 @@ header {
   }
 
 nav a {
-  font-family: Helvetica;
+  font-family: SourceCodePro-Regular;
   font-size: 2em;
   color: white;
   text-decoration: underline;
 }
 
 nav a.backstory {
-  font-family: Helvetica;
+  font-family: SourceCodePro-Regular;
   font-size: 1em;
   color: #d0e9ff;
   text-decoration: underline;
 }
 
-h1 { font-family: Helvetica;
+h1 { font-family: SourceCodePro-Regular;
       font-size: 1.2em;
-      color: #AE3900;
+      color: #301856;
  }
 
 h2 {
-  font-family: Helvetica;
+  font-family: SourceCodePro-Regular;
   font-size: 2em;
   color: white;
   text-decoration: none;
@@ -162,7 +165,7 @@ div.scene1 {
   }
 
   nav a.backstory {
-  font-family: Helvetica;
+  font-family: SourceCodePro-Regular;
   font-size: .8em;
   text-decoration: underline;
 }
