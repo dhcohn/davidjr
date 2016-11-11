@@ -1,46 +1,84 @@
-<html>
-<body>
-	<head>
-		<title>david junior and the flat universe</title>
-        <link rel="stylesheet" type="text/css" href="css/initialize.css">
-            <!-- Grid CSS-->
-        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/font-awesome.css">
+     
+     <!--Picturefill-->
+     <script>
+       // Picture element HTML5 shiv
+       document.createElement( "picture" );
+     </script>
+     <script src="js/picturefill.js" async></script>
+     
+     <!-- Optional Theme -->
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
+     
+     <!-- IE8 Support -->
+     <!--[if lt IE 9]>
+       <script src="js/html5shiv.min.js"></script>
+       <script src="js/respond.min.js"></script>
+     <![endif]-->
 
-        <script type="text/javascript" src="javascript/javascript.js"></script>
-            
-        <meta name="description" content="scene number one">
-		<meta name="viewport" content="width=device-width, initial-scale=1">	
-	</head>
-  <header>
-      <a href="index2.html" class=logo><img src="img/mtlogo2.png" border="0"/></a>
-    <nav>
-      <ul class="nav-menu">
-        <li><a href="DavidJunior.html">David Junior</a></li>
-        <li><h2>&amp;</h2></li>
-        <li><a href="flatuniverse.html">The Flat Universe</a></li>
-      </ul> 
-      <ul>
-        <li><a  href="story.html" class="backstory">The Story</a></li>
-        <li><a href="faith.html" class="backstory">The Faith</a></li>
-        <li><a href="tenets.html" class="backstory">The Tenets</a></li>
-      </ul> 
+<title>Bootstrap</title>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/mtlogo2.png"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="#connect">Connect</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
-  </header>
     
-    <section>
+    <div class="wrapper">
     
     <div class="container">
       <div class="row">
-      <div class="column">
-          <div class="scene1">
-            <a href="sets.html"><img src="img/structure.jpg"></a>
+          <div class="text-center">
+                <a href="sets.html"><img class="img-thumbnail" src="img/structure.jpg"></a>
           </div>
-      <h3>So language functions like a game, and the rules are always changing along with different bits of meaning. There is a way to mathemetically describe the idea that the only constant is change, that the difference between &lsquo;A&rsquo; and itself and the difference between &lsquo;A&rsquo; and &lsquo;B&rsquo; along with all other differences in between, are also different from themselves. This constant is known as &lsquo;e&rsquo;.  The &#8706; symbol means difference.   &lsquo;d&rsquo; here means deferral, which is like the bit of time between &lsquo;A&rsquo; and &lsquo;B&rsquo;.  &lsquo;r&rsquo; here means relationality, which is like the amount that &lsquo;A&rsquo; is still connected to itself (sometimes called trace in philosophy).  You can think of &lsquo;r&rsquo; as the amount that you are still you when going from one surface to another.  You can think of &lsquo;d&rsquo; as the amount you change when you pursue another surface out of some desire.  The equation is r=ke^d where k is any value that stays the same.</h3> 
-      </div>
-      </div>
+          </div>
+          <div class="push"></div>
+      <p>So language functions like a game, and the rules are always changing along with different bits of meaning. There is a way to mathemetically describe the idea that the only constant is change, that the difference between &lsquo;A&rsquo; and itself and the difference between &lsquo;A&rsquo; and &lsquo;B&rsquo; along with all other differences in between, are also different from themselves. This constant is known as &lsquo;e&rsquo;.  The &lsquo;&#8706;&rsquo; symbol means difference.   &lsquo;d&rsquo; here means deferral, which is like the bit of time between &lsquo;A&rsquo; and &lsquo;B&rsquo;.  &lsquo;r&rsquo; here means relationality, which is like the amount that &lsquo;A&rsquo; is still connected to itself (sometimes called trace in philosophy).  You can think of &lsquo;r&rsquo; as the amount that you are still you when going from one surface to another.  You can think of &lsquo;d&rsquo; as the amount you change when you pursue another surface out of some desire.  The equation is r=ke^d where k is any value that stays the same.</p> 
       </div>
     </div>
-  </section>
-</body>		
-</html>
+  </div>
+
+<div class="push"></div>
+<div class="push"></div>
+
+<footer id="connect" class="footer">
+    <div class="container text-center">
+    <h1>Connect to David Junior via David Senior:</h1> 
+        <a class="btn-lg btn-social-icon btn-facebook" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="btn-lg btn-social-icon btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+    </div><!--End container-->
+</footer>
+
+    
+		
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html> 
+
 

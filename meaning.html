@@ -1,52 +1,91 @@
-<html>
-<body>
-	<head>
-		<title>david junior and the flat universe</title>
-        <link rel="stylesheet" type="text/css" href="css/initialize.css">
-            <!-- Grid CSS-->
-        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet" href="css/font-awesome.css">
+     <!--Picturefill-->
+     <script>
+       // Picture element HTML5 shiv
+       document.createElement( "picture" );
+     </script>
+     <script src="js/picturefill.js" async></script>
+     
+     <!-- Optional Theme -->
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
+     
+     <!-- IE8 Support -->
+     <!--[if lt IE 9]>
+       <script src="js/html5shiv.min.js"></script>
+       <script src="js/respond.min.js"></script>
+     <![endif]-->
 
-        <script type="text/javascript" src="javascript/javascript.js"></script>
-            
-        <meta name="description" content="scene number one">
-		<meta name="viewport" content="width=device-width, initial-scale=1">	
-	</head>
-  <header>
-      <a href="index2.html" class=logo><img src="img/mtlogo2.png" border="0"/></a>
-    <nav>
-      <ul class="nav-menu">
-        <li><a href="DavidJunior.html">David Junior</a></li>
-        <li><h2>&amp;</h2></li>
-        <li><a href="flatuniverse.html">The Flat Universe</a></li>
-      </ul> 
-      <ul>
-        <li><a  href="story.html" class="backstory">The Story</a></li>
-        <li><a href="faith.html" class="backstory">The Faith</a></li>
-        <li><a href="tenets.html" class="backstory">The Tenets</a></li>
-      </ul> 
+<title>Bootstrap</title>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/mtlogo2.png"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="#connect">Connect</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
-  </header>
     
-    <section>
+    <div class="wrapper">
     
     <div class="container">
       <div class="row">
-      <div class="column one-half">
-      <a href="differenceandstructure.html"><img src="img/gravityletters.gif"></a>
+        <div class="col-xs-6 text-center">
+          <div class="text-center">
+                <a href="differenceandstructure.html"><img class="img-responsive img-thumbnail" src="img/gravityletters.gif"></a>
+          </div>
+        </div>
+        <div class="col-xs-6 text-center">
+                 <a href="differenceandstructure.html"><img class="img-responsive img-thumbnail" src="img/letterbreak.gif"></a>
+          </div>
       </div>
-      <div class="column one-half">
-      <a href="differenceandstructure.html"><img src="img/letterbreak.gif">
-      </div>
-      </div>
+      <div class="push"></div>
       <div class="row">
-      <div class="column">
-      <h3>Let's say  &lsquo;A&rsquo; and &lsquo;B&rsquo; and &lsquo;C&rsquo; are units of meaning.  They could be words, phrases, signs, whatever. But they each have a function in language, which operates according to different rules in different situations, like games.  This was an insight from Ludwig Wittgenstein.  But the rules are a little open-ended and the limits of the game are a little unclear.  I don't walk into a classroom for instance and tell everyone that I'm ready to play the teaching game.  Meaning is a little slippery since &lsquo;A&rsquo; can mean &lsquo;B&rsquo; and &lsquo;B&rsquo; can mean &lsquo;C&rsquo;, just like the fact that when you open up a dictionary and see the word, &lsquo;rhinoceros,&rsquo; it doesn't just say &lsquo;rhinoceros,&rsquo; in the definition.  Instead, it gives a string of other words, which are also somewhere else in the dictionary.  And round and round like that so that no unit of meaning is itself.  So what holds everything in place?  And how do we communicate?  All good questions!</h3>  
+
+      <p>Let's say  &lsquo;A&rsquo; and &lsquo;B&rsquo; and &lsquo;C&rsquo; are pieces of meaning.  They each have a function in language, which works according to different rules in different situations.  Meaning is a little slippery since &lsquo;A&rsquo; can mean &lsquo;B&rsquo; and &lsquo;B&rsquo; can mean &lsquo;C&rsquo;, just like the fact that when you open up a dictionary and see a word, it doesn't just say the same word in the definition.  Instead, it gives a string of other words, which are also somewhere else in the dictionary.  And round and round like that so that no piece of meaning is itself.  So what holds everything in place?  And how do we communicate?  All good questions!</p> 
         </div>
       </div>
       </div>
-      </div>
     </div>
-  </section>
-</body>		
-</html>
+  </div>
+
+<div class="push"></div>
+
+<footer id="connect" class="footer">
+    <div class="container text-center">
+    <h1>Connect to David Junior via David Senior:</h1> 
+        <a class="btn-lg btn-social-icon btn-facebook" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="btn-lg btn-social-icon btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+    </div><!--End container-->
+</footer>
+
+    
+		
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html> 
+
 

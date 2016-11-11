@@ -1,51 +1,100 @@
-<html>
-<body>
-	<head>
-		<title>david junior and the flat universe</title>
-        <link rel="stylesheet" type="text/css" href="css/initialize.css">
-            <!-- Grid CSS-->
-        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/font-awesome.css">
+     
+     <!--Picturefill-->
+     <script>
+       // Picture element HTML5 shiv
+       document.createElement( "picture" );
+     </script>
+     <script src="js/picturefill.js" async></script>
+     
+     <!-- Optional Theme -->
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
+     
+     <!-- IE8 Support -->
+     <!--[if lt IE 9]>
+       <script src="js/html5shiv.min.js"></script>
+       <script src="js/respond.min.js"></script>
+     <![endif]-->
 
-        <script type="text/javascript" src="javascript/javascript.js"></script>
-            
-        <meta name="description" content="scene number one">
-		<meta name="viewport" content="width=device-width, initial-scale=1">	
-	</head>
-  <header>
-      <a href="index.html" class=logo><img src="img/mtlogo2.png" border="0"/></a>
-    <nav>
-      <ul class="nav-menu">
-        <li><a href="DavidJunior.html">David Junior</a></li>
-        <li><h2>&amp;</h2></li>
-        <li><a href="flatuniverse.html">The Flat Universe</a></li>
-      </ul> 
-      <ul>
-        <li><a  href="story.html" class="backstory">The Story</a></li>
-        <li><a href="faith.html" class="backstory">The Faith</a></li>
-        <li><a href="tenets.html" class="backstory">The Tenets</a></li>
-      </ul> 
-    </nav>
-  </header>
-    
-    <section>
-    
-    <div class="container">
-      <div class="row">
-      <div class="column">
-      <h1>Understand that depth is an illusion.  Learn to traverse the universe with the click of a button.  Free your mind from the constraints of judgment and evaluation.  Follow David Junior by clicking on the images and links.</h1>
-      </div>
-      <div class="column one-half">
-        <a href="chair.html" class="scene1"><img class="response1" src="img/scene1.jpg" onmouseover="rollover(this)" onmouseout="mouseaway(this)" border="0"/><img class="response2" src="img/scene1.gif"></a>
-        <h3>START &uarr;</h3>
+<title>Bootstrap</title>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/mtlogo2.png"></a>
         </div>
-      <div class="column one-half">
-        <img src="img/webgo.gif" border="0"/>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#connect">Connect</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
+    </nav>
+<div class="wrapper">
+    <div class="container">
+      <h3>An overdue welcome to the Flat Universe!  You may not have known it, but you have always been here in this Universe.  Follow David Junior and he will show you around.</h3>
+      <div class="row">
+        <div class="col-xs-6 text-center">
+        <a href="chair.html" class="scene1"><img class="response1 img-thumbnail" src="img/scene1.jpg" onmouseover="rollover(this)" onmouseout="mouseaway(this)" border="0"/><img class="response2" src="img/scene1.gif"></a>
+        </div>
+        <div class="col-xs-6 text-center"><a href="chair.html" class="scene1"><img class= "img-thumbnail" src="img/webgo.gif" border="0"/></a><h3>START &uarr;</h3></div>
       </div>
     </div>
 
+<div id="about" class="push"></div>
+<div class="push"></div>
 
-   	<script type="text/javascript">
+    <div class="container">
+      <h3>About David Junior:</h3>
+      <p>David Junior is an immaterial being who navigates a series of networked surfaces in an imaginary land.  This land is flat, weird, and filled with differences of all kinds.  Also, sometimes it's hard to know when you have really bumped into another person.</p>   
+      <div class="row">
+        <div class="col text-center">
+        <img src="img/mobiusmirror.jpg">
+        </div>
+      </div>
+    </div>
+
+    
+</div>
+
+
+
+
+
+<div class="push"></div>
+
+<footer id="connect" class="footer">
+    <div class="container text-center">
+    <h1>Connect to David Junior via David Senior:</h1> 
+        <a class="btn-lg btn-social-icon btn-facebook" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="btn-lg btn-social-icon btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+    </div><!--End container-->
+</footer>
+
+
+
+<!-- jQuery latest here: https://code.jquery.com/ Remember jQuery2.x doesn't support IE<9-->
+<!--JavaScript Bootstrap.js-->
+<!--My JavaScript-->
+    <script type="text/javascript">
 
     function rollover(scene1)
     {
@@ -67,7 +116,8 @@
 
     </script>
 
-  </section>
-</body>		
-</html>
-
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html> 
