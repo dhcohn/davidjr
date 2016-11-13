@@ -14,6 +14,15 @@ body.black {
   background-image: url(../img/navbackground.jpg);
 }
 
+a.brand {
+  color: #00cae4;
+  font-size: 2em;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 25px;
+}
+
+
 .prophet {
   width: auto;
   height: 100vh;
@@ -63,6 +72,8 @@ body.black {
   display: none;
 }
 
+
+
 .btn-facebook{color:#fff;background-color:#3b5998;border-color:rgba(0,0,0,0.2)}.btn-facebook:focus,.btn-facebook.focus{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
 .btn-facebook:hover{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
 .btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}.btn-facebook:active:hover,.btn-facebook.active:hover,.open>.dropdown-toggle.btn-facebook:hover,.btn-facebook:active:focus,.btn-facebook.active:focus,.open>.dropdown-toggle.btn-facebook:focus,.btn-facebook:active.focus,.btn-facebook.active.focus,.open>.dropdown-toggle.btn-facebook.focus{color:#fff;background-color:#23345a;border-color:rgba(0,0,0,0.2)}
@@ -100,6 +111,19 @@ body > .container {
   font-size: 1.5em;
   margin-right: 20px;
 }
+
+@media (max-width: 767px) {
+  .footer > .container > h1 {
+    font-size: 1.0em;
+    margin-right: 15px;
+  }
+
+a.brand {
+  font-size: 1.5em;
+}
+
+    
+  }
 
 code {
   font-size: 80%;
