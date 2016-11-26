@@ -72,6 +72,9 @@ a.brand {
   display: none;
 }
 
+.col-sp {
+  padding-bottom: 20px;
+}
 
 
 .btn-facebook{color:#fff;background-color:#3b5998;border-color:rgba(0,0,0,0.2)}.btn-facebook:focus,.btn-facebook.focus{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
