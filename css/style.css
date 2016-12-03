@@ -14,6 +14,11 @@ body.black {
   background-image: url(../img/navbackground.jpg);
 }
 
+body.black2 {
+  /* Margin bottom by footer height */
+  background-image: url(../img/choices.jpg);
+}
+
 a.brand {
   color: #00cae4;
   font-size: 2em;
@@ -69,6 +74,10 @@ a.brand {
 }
 
 .response2 {
+  display: none;
+}
+
+.response3 {
   display: none;
 }
 

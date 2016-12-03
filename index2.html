@@ -51,15 +51,23 @@
     </nav>
 <div class="wrapper">
     <div class="container">
-      <h3>An overdue welcome to the Flat Universe!  You may not have known it, but you have always been in this Universe.  Navigate thes surfaces and choose your own philosophical adventure.  When you find David Junior sitting in his chair, you will have reached an endpoint.</h3>
+    <div class="row">
+    <div class="col text-center">
+    <img src="img/choices.png">
+    </div>
+    </div>
+
+      <h3>An overdue welcome to the Flat Universe!  You may not have known it, but you have been in this Universe all along.  Navigate these surfaces and choose your own identity and journey.  When you find David Junior sitting in his chair, you will have reached an endpoint.</h3>
       <div class="row">
         <div class="col-xs-6 text-center">
-        <a href="meaning.html" class="scene1"><img class="response1 img-thumbnail" src="img/scene1.jpg" onmouseover="rollover(this)" onmouseout="mouseaway(this)" border="0"/><img class="response2" src="img/scene1.gif"></a>
-        <h3>Surface A &uarr;</h3>
+        <a href="chair.html" class="scene1"><img class="response1 img-thumbnail" src="img/scene1.jpg" onmouseover="rollover(this)" onmouseout="mouseaway(this)" border="0"/><img class="response2" src="img/scene1.gif"></a>
+        <h3>BEGIN &uarr;</h3>
         </div>
-        <div class="col-xs-6 text-center"><a href="chair.html" class="scene1"><img class= "img-thumbnail" src="img/webgo.gif" border="0"/></a>
-        <h3>Surface B &uarr;</h3></div>
+        <div class="col-xs-6 text-center">
+        <a href="chair.html" class="webgo"><img class="response1 img-thumbnail" src="img/webgo.jpg" onmouseover="rollover2(this)" onmouseout="mouseaway2(this)" border="0"/><img class="response3" src="img/webgo.gif"></a>
+        <h3>BEGIN &uarr;</h3>
       </div>
+    </div>
     </div>
 
 <div id="about" class="push"></div>
@@ -118,6 +126,27 @@
     {
 
         scene1.src = "img/scene1.jpg";
+
+    }
+    </script>
+
+    <script type="text/javascript">
+
+    function rollover2(webgo)
+    {
+
+        webgo.src = 'img/webgo.gif';
+
+    }
+
+    </script>
+
+    <script type="text/javascript">
+
+    function mouseaway2(webgo)
+    {
+
+        webgo.src = "img/webgo.jpg";
 
     }
 
