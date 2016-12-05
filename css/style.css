@@ -132,10 +132,19 @@ body > .container {
 
 a.brand {
   font-size: 1.5em;
+	}
+
+
+.response1 {
+  display: none;
+}
+
+.response2 , .response3 {
+	display:inherit;
 }
 
     
-  }
+}
 
 code {
   font-size: 80%;
