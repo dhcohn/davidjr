@@ -7,16 +7,12 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: #fffcf9;
 }
 
 body.black {
   /* Margin bottom by footer height */
   background-image: url(../img/navbackground.jpg);
-}
-
-body.black2 {
-  /* Margin bottom by footer height */
-  background-image: url(../img/choices.jpg);
 }
 
 a.brand {
@@ -27,11 +23,24 @@ a.brand {
   margin-top: 25px;
 }
 
+h2.cream {
+  color: #fffcf9;
+}
+
 
 .prophet {
   width: auto;
   height: 100vh;
   background-image: url(../img/DavidJuniorProphet.jpg);
+    background-size: cover;                  
+    background-repeat: no-repeat;
+    background-position: center top; 
+}
+
+.starry {
+  width: auto;
+  height: 100vh;
+  background-image: url(../img/starry.jpg);
     background-size: cover;                  
     background-repeat: no-repeat;
     background-position: center top; 
