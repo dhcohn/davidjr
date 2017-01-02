@@ -95,6 +95,13 @@ h2.cream {
   padding-bottom: 20px;
 }
 
+.side {
+  background-color: #8fadbe;
+  height: 100vh;
+}
+.side1 {
+  background-color: #8fadbe;
+}
 
 .btn-facebook{color:#fff;background-color:#3b5998;border-color:rgba(0,0,0,0.2)}.btn-facebook:focus,.btn-facebook.focus{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
 .btn-facebook:hover{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
@@ -143,6 +150,12 @@ body > .container {
 a.brand {
   font-size: 1.5em;
 	}
+
+.side {
+  background-color: #8fadbe;
+  height: auto;
+  }
+
 }
 
 @media (max-width: 815px) {
